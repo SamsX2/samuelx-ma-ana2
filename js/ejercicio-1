@@ -1,0 +1,15 @@
+//crea un vector vacio llamado colores, añade colores y recorre el vector
+//vector vacio
+
+let colores=[];
+
+//añadir
+
+colores.push("rojo", "blanco", "negro");
+console.log(colores);
+
+//recorrer 
+
+for(let i = 0; i < colores.length; i++) {
+    console.log(colores[i]);
+    }

@@ -1,0 +1,12 @@
+//crea un vector con los nuemros del 1 al 5, luega elimina el numero que esta en la segunda
+// posicion y muestra el vector
+
+let numeross= [0,1,2,3,4,5];
+
+//eliminar
+
+numeross.splice(1,1);
+
+//mostrar el vector
+
+console.log(numeross);
